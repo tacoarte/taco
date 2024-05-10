@@ -1,0 +1,29 @@
+.navbar {
+    z-index: 9999; /* Asegura que la navbar esté por encima del video */
+    width: 20vw; /* Ancho del 20% del viewport */
+    height: 100vh; /* Alto del 100% del viewport */
+    display: flex; /* Usaremos flexbox para centrar vertical y horizontalmente */
+    justify-content: center; 
+    align-items: center; 
+    position: fixed; 
+    left: 50%; 
+    transform: translateX(
+      -50%
+    ); 
+  }
+  
+  .navbar-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15em;
+  }
+  
+  .navbar-link {
+      text-decoration: none;
+      font-size: 1.3em;
+      color: rgb(255, 255, 255);
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700; 
+                                                  
+  }
+  
